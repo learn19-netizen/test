@@ -8,9 +8,9 @@ env/
 venv/
 .env
 
-# Output files
-portfolio_analysis_results.json
-*.json
+# Output files (but allow result folder)
+!result/
+!result/*.json
 
 # IDE
 .idea/
